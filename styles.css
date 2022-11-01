@@ -1,0 +1,76 @@
+body {
+  font-size: 25px;
+  margin-top: 7rem;
+}
+
+.div1 {
+  background-color: rgb(221, 216, 238);
+  width: 38rem;
+  height: 17rem;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.div2 {
+  margin-top: 2rem;
+  background-color: rgb(221, 216, 238);
+  width: 38.6rem;
+  height: 9rem;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+input[type=button] {
+  width: 23rem;
+  height: 4rem;
+  background-color: #fefffe;
+  border: 2px solid black;
+  color: black;
+  padding: 14px 20px;
+  font-size: 2rem;
+  cursor: pointer;
+  margin-left: 7rem;
+}
+
+input[type=text] {
+  height: 1.8rem;
+  width: 18rem;
+  font-size: 1.3rem;
+}
+
+
+input[type=tel] {
+  height: 2rem;
+  font-size: 1.3rem;
+  width: 18rem;
+  margin-bottom: 1.7rem;
+}
+
+.center {
+  margin-left: 33.3%;
+}
+
+b {
+  font-size: 40px;
+  background-color: white;
+
+}
+
+#behuz {
+  padding-left: 2rem;
+}
+
+.space {
+  padding: 6px;
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+
+}
+
+#küldes:hover {
+  background-color: rgb(125, 189, 96);
+}

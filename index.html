@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="java.js"></script>
+</head>
+
+<body>
+    <div class="center">
+        <div class="div1">
+            
+                <div class="space">
+                    <label id="behuz" for="mNeve">Megrendelő neve:</label>
+                    <input type="text" id="mNeve"  onfocus="focusFunction('mNeve')"
+                        onblur="blurFunction('mNeve')">
+                </div>
+                <div class="space">
+                    <label id="behuz" for="mCim">Megrendelő címe:</label>
+                    <input type="text" id="mCim"  onfocus="focusFunction('mCim')"
+                        onblur="blurFunction('mCim')">
+                </div>
+                <div class="space">
+                    <label for="phone">Megrendelő telefonszáma: </label>
+                    <input type="tel" id="phone" value="+36 " onfocus="focusFunction('phone')"
+                        onblur="blurFunction('phone')">
+                </div>
+                <div>
+                    <input type="button" id="küldes" value="Elküld" onblur="blurFunction()" onclick="submit()">
+                </div>
+         
+        </div>
+
+        <div class="div2">
+            <b>Visszaigazolás!</b>
+            <p>Név: <span id="visszaigazol_nev">?</span></p>
+            <p>Cím: <span id="visszaigazol_cim">?</span></p>
+            <p> Telefon: <span id="visszaigazol_tel">?</span></p>
+        </div>
+    </div>
+
+</body>
