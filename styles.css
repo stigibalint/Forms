@@ -34,9 +34,10 @@ input[type=button] {
 }
 
 input[type=text] {
-  height: 1.8rem;
+  height: 1.9rem;
   width: 18rem;
   font-size: 1.3rem;
+  border: 1px solid gray;
 }
 
 
@@ -45,6 +46,7 @@ input[type=tel] {
   font-size: 1.3rem;
   width: 18rem;
   margin-bottom: 1.7rem;
+  border: 1px solid gray;
 }
 
 .center {
