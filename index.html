@@ -12,7 +12,7 @@
 <body>
     <div class="center">
         <div class="div1">
-
+        <form>
             <div class="space">
                 <label id="behuz" for="mNeve">Megrendelő neve:</label>
                 <input type="text" id="mNeve" name="mNeve" onfocus="focusFunction('mNeve')"
@@ -23,14 +23,15 @@
                 <input type="text" id="mCim" name="mCim" onfocus="focusFunction('mCim')" onblur="blurFunction('mCim')">
             </div>
             <div class="space">
-                <label for="phone">Megrendelő telefonszáma: </label>
+                <label for="phone" >Megrendelő telefonszáma: </label>
                 <input type="tel" id="phone" value="+36 " name="phone" onfocus="focusFunction('phone')"
                     onblur="blurFunction('phone')">
             </div>
+        </form>
             <div>
                 <input type="button" id="küldes" value="Elküld" onblur="blurFunction()" onclick="submit()">
             </div>
-
+      
         </div>
 
         <div class="div2">
